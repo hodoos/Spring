@@ -1,11 +1,9 @@
 package com.hodoos.spring.ex;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
-@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
 @SpringBootApplication
 public class SpringExampleApplication {
 
@@ -13,4 +11,5 @@ public class SpringExampleApplication {
 		SpringApplication.run(SpringExampleApplication.class, args);
 	}
 
+	
 }
